@@ -28,6 +28,6 @@ public class CurrencyExchangeController {
 		
 		
 		findByFromAndTo.setPort(Integer.parseInt(environment.getProperty("local.server.port")));
-		return exchangeValue;
+		return findByFromAndTo;
 	}
 }
